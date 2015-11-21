@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #F7F7F7;
+	font: 13px/150% "Trebuchet MS", Arial, sans-serif;
+	padding-bottom: 2em;
+	line-height: 2em;
+}
+a:link, a:visited
+{
+	text-decoration: none;
+	color: #248AFF;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #8CAFFF;
+}
+#wrapper
+{
+	width: 800px;
+	margin: 0 auto;
+}
+#header
+{
+	background: url(header.png) no-repeat;
+	height: 200px;
+	border-bottom: 5px solid #8CAFFF;
+}
+#content
+{
+	padding: 0 2em 1em 2em;
+	background: #FFFFFF;
+}
+#footer
+{
+	border-top: 5px solid #8CAFFF;
+	text-align: right;
+	color: #888;
+	font-size: 0.9em;
+}
+h1
+{
+	color: #8CAFFF;
+	width: 10px;
+	line-height: 1.5em;
+	padding-top: 1.5em;
+}
+h1 span
+{
+	background: #FFFFFF;
+}
+h2
+{
+	color: #8CAFFF;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 1em;
+	padding: 0.5em 0;
+}
+h2 span
+{
+	border-bottom: 2px solid #8CAFFF;
+}
+h3
+{
+	color: #8CAFFF;
+	font-size: 1em;
+	font-weight: normal;
+}
+dl
+{
+	padding-bottom: 1em;
+}
+dt
+{
+	width: 15em;
+	float: left;
+}
+ul, li
+{
+	list-style: none;
+}
+p
+{
+	padding-bottom: 1em;
+}
+div.button
+{
+	text-align: center;
+}
+div.question
+{
+	text-align: center;
+}
+div.review
+{
+	border-bottom: 1px solid #8CAFFF;
+	width: 350px;
+	padding: 0.5em;
+}
+div.review div
+{
+	font-size: 3em;
+	line-height: 1.5em;
+}
+div.review ul, div.review li
+{
+	list-style: disc;
+}
+div.review li
+{
+	margin-left: 1em;
+}
+div.kanji
+{
+	font-size: 5em;
+	line-height: 2em;
+	padding: 0.5em;
+	border: 1px solid #8CAFFF;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+}
+ul.test
+{
+	padding-top: 1em;
+}
+ul.test li
+{
+	padding: 0.3em 0;
+}
+ul.test li input
+{
+	width: 220px;
+}
+input
+{
+	background: #8CAFFF;
+	border: none;
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: 700;
+	padding: 0.2em 0.5em;
+}
+input:hover
+{
+	background: #B8CEFF;
+}
+span.correct
+{
+	color: green;
+}
+span.incorrect
+{
+	color: red;
+}
+span.choice
+{
+	color: #248AFF;
+}
+span.home
+{
+	float: left;
+}
+#timer
+{
+	float: right;
+}
